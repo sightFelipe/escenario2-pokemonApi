@@ -24,6 +24,18 @@ async function habilidadesPokemon(pokemonName) {
     const abilities = await habilidadesPokemon("pikachu");
     console.log(abilities);
   }
-  
+
+  async function testear() {
+    const abilities = await habilidadesPokemon("perro");
+    console.log(abilities);
+  }
+  async function testear() {
+    const abilities = await habilidadesPokemon("bulbasaur");
+    console.log(abilities);
+  }
+  async function testear() {
+    const abilities = await habilidadesPokemon("ditto");
+    console.log(abilities);
+  }
   // Ejecuta la función test para probar el programa
   testear();
